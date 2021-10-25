@@ -7,6 +7,6 @@ node() {
   }
   stage('integrationArtifactDownload Command') {
 	
-	  integrationArtifactDownload script: this
+	  apiProxyDownload script: this
   }
 }
