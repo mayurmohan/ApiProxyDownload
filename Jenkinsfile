@@ -8,6 +8,6 @@ node() {
 	
   stage('integrationArtifactDownload Command') {
 	
-	  apiProxyDownload script: this
+	apiProxyDownload script: this
   }
 }
